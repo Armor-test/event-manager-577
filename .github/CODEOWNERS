@@ -1,0 +1,41 @@
+# CODEOWNERS file for event-manager-577
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-ml @Armor-test/team-governance @Armor-test/squad-frontend
+
+# Directory ownership
+/db/ @Armor-test/dept-security @Armor-test/dept-release @Armor-test/grp-api
+/config/ @Armor-test/dept-automation @Armor-test/squad-reporting @Armor-test/dept-billing
+/migrations/ @Armor-test/unit-cloud @Armor-test/grp-search
+/data/ @Armor-test/squad-tooling @Armor-test/squad-ml
+/scripts/ @Armor-test/grp-api @Armor-test/team-security
+/pages/ @Armor-test/dept-data @Armor-test/squad-qa
+/core/ @Armor-test/team-governance @Armor-test/dept-notifications
+/pkg/ @Armor-test/dept-data @Armor-test/squad-database
+/security/ @Armor-test/team-governance @Armor-test/grp-storage
+/auth/ @Armor-test/team-notifications @Armor-test/unit-devops
+/services/ @Armor-test/grp-api @Armor-test/dept-logging
+/static/ @Armor-test/dept-logging @Armor-test/dept-automation
+/views/ @Armor-test/dept-reporting @Armor-test/grp-integration
+/build/ @Armor-test/squad-ux @Armor-test/dept-identity @Armor-test/grp-search
+/app/ @Armor-test/grp-payments @Armor-test/squad-performance
+
+# File type ownership
+*.toml @Armor-test/unit-devops @Armor-test/dept-test @Armor-test/squad-tooling
+*.kt @Armor-test/dept-logging @Armor-test/dept-test @Armor-test/team-core
+*.ts @Armor-test/dept-automation @Armor-test/grp-storage @Armor-test/dept-identity
+*.php @Armor-test/squad-api @Armor-test/dept-billing @Armor-test/squad-cloud
+*.go @Armor-test/squad-api @Armor-test/grp-search
+*.cs @Armor-test/squad-qa @Armor-test/grp-search @Armor-test/grp-ui
+*.graphql @Armor-test/dept-release @Armor-test/dept-automation @Armor-test/dept-logging
+*.scss @Armor-test/squad-database @Armor-test/dept-api @Armor-test/squad-research
+*.swift @Armor-test/team-frontend @Armor-test/team-logging @Armor-test/unit-devops
+*.sh @Armor-test/grp-storage @Armor-test/unit-cloud
+*.tf @Armor-test/grp-reporting @Armor-test/dept-data
+*.proto @Armor-test/dept-test @Armor-test/squad-product
+*.yml @Armor-test/squad-product @Armor-test/squad-database @Armor-test/squad-search
+*.json @Armor-test/squad-product @Armor-test/unit-devops
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
